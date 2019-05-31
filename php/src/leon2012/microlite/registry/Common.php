@@ -17,6 +17,11 @@ class Node
     public $address;
     public $port;
     public $metadata;
+
+    public function hostname()
+    {
+        return $this->address.":".$this->port;
+    }
 }
 
 class Endpoint 
