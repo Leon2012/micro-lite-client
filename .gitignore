@@ -1,0 +1,4 @@
+/.phpintel
+/.phpintel/*
+/php/vendor
+/php/vendor/*
